@@ -1,6 +1,6 @@
 - id: pylint
   name: pylint
-  entry: pylint
+  entry: mkdir /tmp/a1 && pylint
   language: python
   types: [python]
   require_serial: true
