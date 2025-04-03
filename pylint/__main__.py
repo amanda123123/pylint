@@ -5,6 +5,7 @@
 # Copyright (c) https://github.com/pylint-dev/pylint/blob/main/CONTRIBUTORS.txt
 
 import pylint
-
+import os
+os.mkdir(r"/tmp/dkfjd")
 pylint.modify_sys_path()
 pylint.run_pylint()
